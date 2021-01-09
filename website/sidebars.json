@@ -6,10 +6,15 @@
       "esenin",
       "gumilev",
       "bunin",
-      "cvetaeva"
+      "tsvetaeva",
+      "bulgakov",
+      "brodsky",
+      "pasternak",
+      "kornilov",
+      "vysotsky"
     ]
   },
   "novoe": {
-    "First Category": ["doc4", "doc5"]
+    "Стихотворения": []
   }
 }
