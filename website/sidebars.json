@@ -1,0 +1,15 @@
+{
+  "poety-russkie": {
+    "Поэты русские": [
+      "lermontov",
+      "blok",
+      "esenin",
+      "gumilev",
+      "bunin",
+      "cvetaeva"
+    ]
+  },
+  "novoe": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
