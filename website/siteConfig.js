@@ -2,31 +2,28 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Михаил Потачев',
-  tagline: 'Стихи',
+  title: "Михаил Потачев",
+  tagline: "Стихи",
 
-  url: 'https://potachev.ru',
-  baseUrl: '/',
+  url: "https://potachev.ru",
+  baseUrl: "/",
 
-  headerLinks: [
-    {doc: 'doc1', label: 'Поэты русские'},
-    {doc: 'doc4', label: 'Новое'},
-  ],
+  headerLinks: [{ doc: "lermontov", label: "Поэты русские" }],
 
-  favicon: 'img/favicon.ico',
+  favicon: "img/favicon.ico",
 
   colors: {
-    primaryColor: '#5DADE2',
-    secondaryColor: '#85C1E9',
+    primaryColor: "#5DADE2",
+    secondaryColor: "#85C1E9",
   },
 
   copyright: `Copyright © ${new Date().getFullYear()} Михаил Потачев`,
 
-  onPageNav: 'separate',
+  onPageNav: "separate",
   cleanUrl: false,
 
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  ogImage: "img/undraw_online.svg",
+  twitterImage: "img/undraw_tweetstorm.svg",
 };
 
 module.exports = siteConfig;
