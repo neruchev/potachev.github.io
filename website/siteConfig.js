@@ -5,8 +5,13 @@ const siteConfig = {
   title: "Михаил Потачев",
   tagline: "Стихи",
 
+  projectName: "potachev.ru",
+  organizationName: "neruchev",
+
   url: "https://potachev.ru",
   baseUrl: "/",
+  docsUrl: "poems",
+  customDocsPath: "poems",
 
   headerLinks: [{ doc: "poety-russkie", label: "Поэты русские" }],
 
