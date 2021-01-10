@@ -8,7 +8,7 @@ const siteConfig = {
   url: "https://potachev.ru",
   baseUrl: "/",
 
-  headerLinks: [{ doc: "lermontov", label: "Поэты русские" }],
+  headerLinks: [{ doc: "poety-russkie", label: "Поэты русские" }],
 
   favicon: "img/favicon.ico",
 
@@ -21,9 +21,6 @@ const siteConfig = {
 
   onPageNav: "separate",
   cleanUrl: false,
-
-  ogImage: "img/undraw_online.svg",
-  twitterImage: "img/undraw_tweetstorm.svg",
 };
 
 module.exports = siteConfig;

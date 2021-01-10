@@ -1,55 +1,32 @@
 const React = require("react");
 
-const CompLibrary = require("../../core/CompLibrary.js");
+const { Container, GridBlock } = require("../../core/CompLibrary.js");
 
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
+const Index = ({ config }) => {
+  const { baseUrl, docsUrl } = config;
 
-class Index extends React.Component {
-  render() {
-    const { config: siteConfig } = this.props;
-    const { baseUrl, docsUrl } = siteConfig;
-
-    const Block = (props) => (
-      <Container
-        padding={["bottom", "top"]}
-        id={props.id}
-        background={props.background}
-      >
+  return (
+    <div className="mainContainer">
+      <Container id="try">
         <GridBlock
           align="left"
-          contents={props.children}
-          layout={props.layout}
+          contents={[
+            {
+              content:
+                "Сборник посвящений русским поэтам. Вышел в Нижнем Новгороде в 2010 г." +
+                "\n\n" +
+                `[читать](${baseUrl}${docsUrl}/poety-russkie.html)`,
+              image: `${baseUrl}img/poety_russkie.png`,
+              imageAlign: "left",
+              title: "Поэты русские",
+              subTitle: "2010",
+              imageLink: `${baseUrl}${docsUrl}/poety-russkie.html`,
+            },
+          ]}
         />
       </Container>
-    );
-
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content:
-              "Сборник посвящений русским поэтам. Вышел в Нижнем Новгороде в 2010 г." +
-              "\n\n" +
-              `[читать](${baseUrl}${docsUrl}/lermontov.html)`,
-            image: `${baseUrl}img/poety_russkie.png`,
-            imageAlign: "left",
-            title: "Поэты русские",
-            subTitle: "2010",
-            imageLink: `${baseUrl}${docsUrl}/lermontov.html`,
-          },
-        ]}
-      </Block>
-    );
-
-    return (
-      <div>
-        <div className="mainContainer">
-          <TryOut />
-        </div>
-      </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 module.exports = Index;

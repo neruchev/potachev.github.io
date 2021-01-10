@@ -4,6 +4,11 @@ blockquote {
   border: none;
 }
 
+article p img {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .footnote-ref {
   font-size: 70%;
   vertical-align: super;
@@ -20,6 +25,10 @@ blockquote {
 .tocToggler,
 .navBreadcrumb h2 {
   display: none;
+}
+
+.imageAlignSide .blockImage {
+  max-width: 330px;
 }
 
 @media only screen and (max-width: 1023px) {
