@@ -2,7 +2,7 @@
   "name": "potachev.ru",
   "version": "0.0.1",
   "description": "Mikhail Potachev personal website",
-  "repository": "git@github.com:neruchev/potachev.ru.git",
+  "repository": "git@github.com:neruchev/potachev.github.io.git",
   "private": true,
   "scripts": {
     "start": "docusaurus-start",

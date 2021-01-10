@@ -6,7 +6,7 @@ const siteConfig = {
   tagline: "Стихи",
 
   projectName: "potachev.ru",
-  organizationName: "neruchev",
+  organizationName: "potachev",
 
   url: "https://potachev.ru",
   baseUrl: "/",
