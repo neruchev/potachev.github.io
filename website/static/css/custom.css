@@ -1,14 +1,40 @@
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+blockquote {
+  margin-left: 50px;
+  background: none;
+  border: none;
 }
 
-@media only screen and (min-width: 1024px) {
+.footnote-ref {
+  font-size: 70%;
+  vertical-align: super;
+}
+
+.footnotes {
+  font-size: 90%;
+}
+
+.footnotes a.footnote-backref {
+  display: none;
+}
+
+.tocToggler,
+.navBreadcrumb h2 {
+  display: none;
 }
 
 @media only screen and (max-width: 1023px) {
+  .mainContainer .wrapper .post .postHeaderTitle {
+    margin-top: 30px;
+  }
 }
 
-@media only screen and (min-width: 1400px) {
-}
+@media only screen and (min-width: 1024px) {
+  blockquote {
+    margin-left: 100px;
+  }
 
-@media only screen and (min-width: 1500px) {
+  .docs-prev,
+  .docs-next {
+    margin: 10px 0;
+  }
 }
